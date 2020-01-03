@@ -35,5 +35,5 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
   
-  patch '/articles/'
+  patch '/articles/:id'
 end
