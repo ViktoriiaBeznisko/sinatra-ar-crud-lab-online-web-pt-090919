@@ -35,5 +35,5 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
   
-  get 'patch
+  patch '/articles'
 end
